@@ -147,4 +147,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1013-fibonacci-number](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1013-fibonacci-number) |
+## Database
+|  |
+| ------- |
+| [0584-find-customer-referee](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0584-find-customer-referee) |
 <!---LeetCode Topics End-->

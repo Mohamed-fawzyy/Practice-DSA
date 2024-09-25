@@ -1,9 +1,9 @@
-# Practice---DSA
-A collection of LeetCode questions to ace the coding interview! - Created using [LeetHub v2](https://github.com/arunbhardwaj/LeetHub-2.0)
+# Practice-DSA
+A collection of LeetCode questions to ace the coding interview at FAAMG! 🚀 - Created using [LeetHub v2](https://github.com/arunbhardwaj/LeetHub-2.0)
 
 <!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
+# LeetCode Topics 🏁
+## Array ⛓
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0001-two-sum) |
@@ -32,7 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1693-sum-of-all-odd-length-subarrays](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1693-sum-of-all-odd-length-subarrays) |
 | [1791-richest-customer-wealth](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1791-richest-customer-wealth) |
 | [1899-count-items-matching-a-rule](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1899-count-items-matching-a-rule) |
-## Hash Table
+## Hash Table 🗺
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0001-two-sum) |
@@ -42,7 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0347-top-k-frequent-elements) |
-## Math
+## Math 🔢
 |  |
 | ------- |
 | [0007-reverse-integer](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0007-reverse-integer) |
@@ -51,7 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1013-fibonacci-number](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1013-fibonacci-number) |
 | [1610-xor-operation-in-an-array](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1610-xor-operation-in-an-array) |
 | [1693-sum-of-all-odd-length-subarrays](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1693-sum-of-all-odd-length-subarrays) |
-## Two Pointers
+## Two Pointers 🎲
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0011-container-with-most-water) |
@@ -66,11 +66,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0283-move-zeroes](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0283-move-zeroes) |
 | [0647-palindromic-substrings](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0647-palindromic-substrings) |
-## Greedy
+## Greedy 🤑
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0011-container-with-most-water) |
-## String
+## String 🧮
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0013-roman-to-integer) |
@@ -82,11 +82,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0242-valid-anagram) |
 | [0647-palindromic-substrings](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0647-palindromic-substrings) |
 | [1899-count-items-matching-a-rule](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1899-count-items-matching-a-rule) |
-## Trie
+## Trie 📋
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0014-longest-common-prefix) |
-## Sorting
+## Sorting 📈
 |  |
 | ------- |
 | [0015-3sum](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0015-3sum) |
@@ -96,25 +96,25 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0347-top-k-frequent-elements) |
-## Stack
+## Stack 🎚
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0042-trapping-rain-water) |
-## Linked List
+## Linked List 🧬
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0021-merge-two-sorted-lists) |
-## Recursion
+## Recursion ♾
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0021-merge-two-sorted-lists) |
 | [1013-fibonacci-number](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1013-fibonacci-number) |
-## String Matching
+## String Matching 📝
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
-## Dynamic Programming
+## Dynamic Programming 💈
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0042-trapping-rain-water) |

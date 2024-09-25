@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0128-longest-consecutive-sequence) |
+| [0162-find-peak-element](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0162-find-peak-element) |
 ## Hash Table
 |  |
 | ------- |
@@ -96,4 +97,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0128-longest-consecutive-sequence) |
+## Binary Search
+|  |
+| ------- |
+| [0162-find-peak-element](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0162-find-peak-element) |
 <!---LeetCode Topics End-->

@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0217-contains-duplicate](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0242-valid-anagram) |
 ## Math
 |  |
 | ------- |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0049-group-anagrams](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0125-valid-palindrome) |
+| [0242-valid-anagram](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0242-valid-anagram) |
 ## Trie
 |  |
 | ------- |
@@ -73,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0075-sort-colors) |
 | [0217-contains-duplicate](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0242-valid-anagram) |
 ## Stack
 |  |
 | ------- |

@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0347-top-k-frequent-elements) |
 | [1241-decompress-run-length-encoded-list](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1241-decompress-run-length-encoded-list) |
 | [1505-create-target-array-in-the-given-order](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1505-create-target-array-in-the-given-order) |
+| [1646-kth-missing-positive-number](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1646-kth-missing-positive-number) |
 ## Hash Table
 |  |
 | ------- |
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0162-find-peak-element](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [1646-kth-missing-positive-number](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1646-kth-missing-positive-number) |
 ## Prefix Sum
 |  |
 | ------- |

@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0283-move-zeroes) |
 | [0347-top-k-frequent-elements](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0347-top-k-frequent-elements) |
 | [1241-decompress-run-length-encoded-list](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1241-decompress-run-length-encoded-list) |
+| [1505-create-target-array-in-the-given-order](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1505-create-target-array-in-the-given-order) |
 ## Hash Table
 |  |
 | ------- |
@@ -157,4 +158,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0584-find-customer-referee](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0584-find-customer-referee) |
 | [0595-big-countries](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0595-big-countries) |
 | [1509-replace-employee-id-with-the-unique-identifier](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1509-replace-employee-id-with-the-unique-identifier) |
+## Simulation
+|  |
+| ------- |
+| [1505-create-target-array-in-the-given-order](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1505-create-target-array-in-the-given-order) |
 <!---LeetCode Topics End-->

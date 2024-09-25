@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0009-palindrome-number](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0013-roman-to-integer) |
 | [1013-fibonacci-number](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1013-fibonacci-number) |
+| [1610-xor-operation-in-an-array](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1610-xor-operation-in-an-array) |
 | [1693-sum-of-all-odd-length-subarrays](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1693-sum-of-all-odd-length-subarrays) |
 ## Two Pointers
 |  |
@@ -172,4 +173,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1505-create-target-array-in-the-given-order](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1505-create-target-array-in-the-given-order) |
+## Bit Manipulation
+|  |
+| ------- |
+| [1610-xor-operation-in-an-array](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1610-xor-operation-in-an-array) |
 <!---LeetCode Topics End-->

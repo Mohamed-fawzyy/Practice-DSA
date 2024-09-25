@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0283-move-zeroes](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0283-move-zeroes) |
+| [0647-palindromic-substrings](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0647-palindromic-substrings) |
 ## Greedy
 |  |
 | ------- |
@@ -68,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0242-valid-anagram) |
+| [0647-palindromic-substrings](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0647-palindromic-substrings) |
 ## Trie
 |  |
 | ------- |
@@ -105,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0042-trapping-rain-water) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0647-palindromic-substrings](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0647-palindromic-substrings) |
 | [1013-fibonacci-number](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1013-fibonacci-number) |
 ## Monotonic Stack
 |  |

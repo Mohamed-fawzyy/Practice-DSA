@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0016-3sum-closest) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 ## Greedy
 |  |
 | ------- |
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0020-valid-parentheses) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 ## Trie
 |  |
 | ------- |
@@ -60,4 +62,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0021-merge-two-sorted-lists) |
+## String Matching
+|  |
+| ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 <!---LeetCode Topics End-->

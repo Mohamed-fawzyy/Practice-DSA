@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0007-reverse-integer](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0013-roman-to-integer) |
+| [1013-fibonacci-number](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1013-fibonacci-number) |
 ## Two Pointers
 |  |
 | ------- |
@@ -94,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0021-merge-two-sorted-lists) |
+| [1013-fibonacci-number](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1013-fibonacci-number) |
 ## String Matching
 |  |
 | ------- |
@@ -103,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0042-trapping-rain-water) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [1013-fibonacci-number](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1013-fibonacci-number) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -140,4 +143,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0347-top-k-frequent-elements) |
+## Memoization
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1013-fibonacci-number) |
 <!---LeetCode Topics End-->

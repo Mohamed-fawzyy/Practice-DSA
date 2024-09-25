@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1241-decompress-run-length-encoded-list](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1241-decompress-run-length-encoded-list) |
 | [1505-create-target-array-in-the-given-order](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1505-create-target-array-in-the-given-order) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1528-kids-with-the-greatest-number-of-candies) |
+| [1580-shuffle-the-array](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1580-shuffle-the-array) |
 | [1646-kth-missing-positive-number](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1646-kth-missing-positive-number) |
 | [1693-sum-of-all-odd-length-subarrays](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1693-sum-of-all-odd-length-subarrays) |
 ## Hash Table

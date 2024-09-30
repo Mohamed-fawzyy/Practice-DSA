@@ -18,10 +18,6 @@ class Solution {
             map.put(nums[i], 0);
         }
 
-        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
-            System.out.println("Key: " + entry.getKey() + "\nvalue:" + entry.getValue());
-        }
-        
         return false;
     }
 }

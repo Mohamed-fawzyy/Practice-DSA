@@ -4,19 +4,12 @@ class Solution {
         int n = nums.length;
         HashMap<Integer, Integer> map = new HashMap<>();
 
-        if (n == 1) {
-            return false;
-        }
-
-        map.put(nums[0], 0);
-        for (int i = 1; i < n; i++) {
-
-            if (map.containsKey(nums[i])){
-                return true;
-            }
+        for (int i = 0; i < n; i++) {
 
             map.put(nums[i], 0);
         }
+
+        if (n != map.size()) return true;
 
         return false;
     }

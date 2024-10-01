@@ -3,19 +3,20 @@ class Solution {
 
         if (s.length() != t.length()) return false;
         
-        char[] charS = s.toCharArray();
-        char[] charT = t.toCharArray();
+        HashMap<Character, Integer> charMapCount = new HashMap<>();
 
-        Arrays.sort(charS);
-        Arrays.sort(charT);
+        for (char ch : s.toCharArray()){
+            charMapCount.put(ch, charMapCount.getOrDefault(ch, 0) + 1);
+        }
+        
+        for (char ch : t.toCharArray()){
+            
+            if(!charMapCount.containsKey(ch)) return false;
 
-        String sortedS = new String(charS);
-        String sortedT = new String(charT);
+            charMapCount.put(ch, charMapCount.get(ch) - 1);
+            if(charMapCount.get(ch) < 0) return false;
+        }
 
-        System.out.println("\nSorted S: " + sortedS + "\nSorted T: " + sortedT);
-
-        if (sortedS.equals(sortedT)) return true;
-
-        return false;
+        return true;
     }
 }

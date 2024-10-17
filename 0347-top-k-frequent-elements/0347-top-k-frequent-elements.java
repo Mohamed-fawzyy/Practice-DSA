@@ -19,7 +19,7 @@ class Solution {
         }
 
 
-        for (int i = freq.length - 1; i >= 0; i--) {
+        for (int i = n; i >= 0; i--) {
             for (Map.Entry<Integer, Integer> entry : map.entrySet()){
 
                 if (i == entry.getValue()){

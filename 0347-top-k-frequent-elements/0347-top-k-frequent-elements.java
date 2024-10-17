@@ -10,7 +10,6 @@ class Solution {
 
         int index = 0;
         int[] bucket = new int[k];
-        int[] freq = new int[n + 1];
 
         // map insertion
         for (int i = 0; i < n; i++) {
@@ -29,6 +28,7 @@ class Solution {
                         bucket[index] = entry.getKey();
                         index++;
                     }
+                    else if (index == k) break;
                 }
             }
         }

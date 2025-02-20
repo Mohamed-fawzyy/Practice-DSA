@@ -3,15 +3,13 @@ class Solution {
         
         int n = nums.length;
         int formula = n*(n+1) / 2;
-        int res = 0;
 
         System.out.println(formula);
 
         for (int number : nums){
             
-            res = formula - number;
-            formula = res;
+            formula -= number;
         }
-        return res;
+        return formula;
     }
 }

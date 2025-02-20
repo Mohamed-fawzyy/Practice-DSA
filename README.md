@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview at FAAMG! 🚀 - 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0217-contains-duplicate](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0238-product-of-array-except-self) |
+| [0268-missing-number](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0283-move-zeroes) |
 | [0347-top-k-frequent-elements](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0347-top-k-frequent-elements) |
 | [1241-decompress-run-length-encoded-list](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1241-decompress-run-length-encoded-list) |
@@ -41,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview at FAAMG! 🚀 - 
 | [0128-longest-consecutive-sequence](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0217-contains-duplicate](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0347-top-k-frequent-elements) |
 ## Math 🔢
 |  |
@@ -48,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview at FAAMG! 🚀 - 
 | [0007-reverse-integer](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0013-roman-to-integer) |
+| [0268-missing-number](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0268-missing-number) |
 | [1013-fibonacci-number](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1013-fibonacci-number) |
 | [1610-xor-operation-in-an-array](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1610-xor-operation-in-an-array) |
 | [1693-sum-of-all-odd-length-subarrays](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1693-sum-of-all-odd-length-subarrays) |
@@ -95,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview at FAAMG! 🚀 - 
 | [0075-sort-colors](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0075-sort-colors) |
 | [0217-contains-duplicate](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0347-top-k-frequent-elements) |
 ## Stack 🎚
 |  |
@@ -134,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview at FAAMG! 🚀 - 
 | ------- |
 | [0162-find-peak-element](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0268-missing-number](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0268-missing-number) |
 | [1646-kth-missing-positive-number](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1646-kth-missing-positive-number) |
 ## Prefix Sum
 |  |
@@ -181,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview at FAAMG! 🚀 - 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0268-missing-number) |
 | [1610-xor-operation-in-an-array](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1610-xor-operation-in-an-array) |
 ## Matrix
 |  |

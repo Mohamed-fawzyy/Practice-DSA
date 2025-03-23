@@ -27,6 +27,20 @@ public class SingleLinkedList {
         System.out.println();
     }
 
+    public static void display(ListNode head) {
+
+        ListNode curr = head;
+        int n = length();
+
+        while (curr != null) {
+            System.out.print(curr.data + "--> ");
+            curr = curr.next;
+        }
+        System.out.println("null.");
+        System.out.println("length: " + n);
+        System.out.println();
+    }
+
     private static int length() {
         int counter = 0;
         ListNode curr = head;
@@ -41,7 +55,7 @@ public class SingleLinkedList {
 
     public static void insertFirstNode(int data) {
 
-//        System.out.println("\n🔹 Insert First Node at linked list...");
+        System.out.println("\n🔹 Insert First Node at linked list...");
         ListNode newNode = new ListNode(data);
         newNode.next = head;
         head = newNode;
@@ -147,23 +161,21 @@ public class SingleLinkedList {
         if (head == null) return;
 
         ListNode curr = head;
-
         ListNode newHead = null;
-        ListNode revSLL = new ListNode(0);
-
-        newHead.next = revSLL;
 
         while(curr != null){
 
-            revSLL.data = curr.data;
-            revSLL.next = curr;
-            newHead = revSLL;
+            ListNode newNode = new ListNode(curr.data);
+            newNode.next = newHead;
+            newHead = newNode;
 
-            System.out.print(revSLL.data + "--> ");
             //increment to next iterator
             curr = curr.next;
         }
 
+        display(newHead);
 
     }
+
+    //try to rev the list with other logic, try to apply the first logic again without cheating
 }

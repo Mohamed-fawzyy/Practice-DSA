@@ -35,8 +35,9 @@ public class Main {
 //        SingleLinkedList.deleteNodeAtPosition(3);
 //        SingleLinkedList.display();
 
-        SingleLinkedList.searchElement(122);
+//        SingleLinkedList.searchElement(122);
 
+        SingleLinkedList.reverseLinkedList();
         /////////////////////////////////////////////////////////////////////////////////
 
 

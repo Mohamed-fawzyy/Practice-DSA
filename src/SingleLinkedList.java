@@ -41,7 +41,7 @@ public class SingleLinkedList {
 
     public static void insertFirstNode(int data) {
 
-        System.out.println("\n🔹 Insert First Node at linked list...");
+//        System.out.println("\n🔹 Insert First Node at linked list...");
         ListNode newNode = new ListNode(data);
         newNode.next = head;
         head = newNode;
@@ -139,5 +139,31 @@ public class SingleLinkedList {
         }
 
         System.out.println("element not exist.");
+    }
+
+    public static void reverseLinkedList(){
+
+        System.out.println("\n🔹 Reverse elements at linked list...");
+        if (head == null) return;
+
+        ListNode curr = head;
+
+        ListNode newHead = null;
+        ListNode revSLL = new ListNode(0);
+
+        newHead.next = revSLL;
+
+        while(curr != null){
+
+            revSLL.data = curr.data;
+            revSLL.next = curr;
+            newHead = revSLL;
+
+            System.out.print(revSLL.data + "--> ");
+            //increment to next iterator
+            curr = curr.next;
+        }
+
+
     }
 }

@@ -30,7 +30,7 @@ public class SingleLinkedList {
     public static void display(ListNode head) {
 
         ListNode curr = head;
-        int n = length();
+        int n = length(head);
 
         while (curr != null) {
             System.out.print(curr.data + "--> ");
@@ -42,6 +42,18 @@ public class SingleLinkedList {
     }
 
     private static int length() {
+        int counter = 0;
+        ListNode curr = head;
+
+        while (curr != null) {
+            curr = curr.next;
+            counter++;
+        }
+
+        return counter;
+    }
+
+    private static int length(ListNode head) {
         int counter = 0;
         ListNode curr = head;
 
@@ -155,27 +167,51 @@ public class SingleLinkedList {
         System.out.println("element not exist.");
     }
 
+//    public static void reverseLinkedList(){
+//
+//        System.out.println("\n🔹 Reverse elements at linked list...");
+//        if (head == null) return;
+//
+//        ListNode curr = head;
+//        ListNode newHead = null;
+//
+//        while(curr != null){
+//
+//            ListNode newNode = new ListNode(curr.data);
+//            newNode.next = newHead;
+//            newHead = newNode;
+//
+//            //increment to next iterator
+//            curr = curr.next;
+//        }
+//
+//        display(newHead);
+//
+//    }
+
     public static void reverseLinkedList(){
 
-        System.out.println("\n🔹 Reverse elements at linked list...");
         if (head == null) return;
 
+        //       curr nex
+        // head-> 1--> 2--> 3--> null
+
+        ListNode prev = null;
         ListNode curr = head;
-        ListNode newHead = null;
+        ListNode next = null;
 
         while(curr != null){
 
-            ListNode newNode = new ListNode(curr.data);
-            newNode.next = newHead;
-            newHead = newNode;
+            // pos next after curr
+            next = curr.next;
 
-            //increment to next iterator
-            curr = curr.next;
+            curr.next = prev;
+            prev = curr;
+
+            // iterate to the next node
+            curr = next;
         }
 
-        display(newHead);
-
+        display(prev);
     }
-
-    //try to rev the list with other logic, try to apply the first logic again without cheating
 }

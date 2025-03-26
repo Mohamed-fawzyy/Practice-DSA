@@ -213,7 +213,7 @@ public class SingleLinkedList {
         display(prev);
     }
 
-    public static void findMiddleNode(){
+    public static void firstFindMiddleNode(){
 
         System.out.println("\n🔹 find Middle Node at linked list...");
         if (head == null) return;
@@ -231,5 +231,22 @@ public class SingleLinkedList {
         }
 
         System.out.println("middle node is: " + curr.data);
+    }
+
+    public static void secondFindMiddleNode(){
+
+        System.out.println("\n🔹 find Middle Node at linked list...");
+        if (head == null) return;
+
+        ListNode slowNode = head;
+        ListNode fastNode = head;
+
+        while (fastNode != null && fastNode.next != null){
+
+            slowNode = slowNode.next;
+            fastNode = fastNode.next.next;
+        }
+
+        System.out.println(slowNode.data);
     }
 }

@@ -41,7 +41,7 @@ public class Main {
 
 //        SingleLinkedList.secondReverseLinkedList();
 
-        SingleLinkedList.findMiddleNode();
+        SingleLinkedList.secondFindMiddleNode();
 
 
 

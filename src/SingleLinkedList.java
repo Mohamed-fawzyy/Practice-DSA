@@ -167,38 +167,36 @@ public class SingleLinkedList {
         System.out.println("element not exist.");
     }
 
-//    public static void reverseLinkedList(){
-//
-//        System.out.println("\n🔹 Reverse elements at linked list...");
-//        if (head == null) return;
-//
-//        ListNode curr = head;
-//        ListNode newHead = null;
-//
-//        while(curr != null){
-//
-//            ListNode newNode = new ListNode(curr.data);
-//            newNode.next = newHead;
-//            newHead = newNode;
-//
-//            //increment to next iterator
-//            curr = curr.next;
-//        }
-//
-//        display(newHead);
-//
-//    }
+    public static void firstReverseLinkedList(){
 
-    public static void reverseLinkedList(){
-
+        System.out.println("\n🔹 Reverse elements at linked list...");
         if (head == null) return;
 
-        //       curr nex
-        // head-> 1--> 2--> 3--> null
+        ListNode curr = head;
+        ListNode newHead = null;
+
+        while(curr != null){
+
+            ListNode newNode = new ListNode(curr.data);
+            newNode.next = newHead;
+            newHead = newNode;
+
+            //increment to next iterator
+            curr = curr.next;
+        }
+
+        display(newHead);
+
+    }
+
+    public static void secondReverseLinkedList(){
+
+        System.out.println("\n🔹 Reverse elements at linked list...");
+        if (head == null) return;
 
         ListNode prev = null;
         ListNode curr = head;
-        ListNode next = null;
+        ListNode next;
 
         while(curr != null){
 
@@ -213,5 +211,25 @@ public class SingleLinkedList {
         }
 
         display(prev);
+    }
+
+    public static void findMiddleNode(){
+
+        System.out.println("\n🔹 find Middle Node at linked list...");
+        if (head == null) return;
+
+        int n = length();
+        int mid = n/2;
+        int counter = 0;
+
+        ListNode curr = head;
+
+        while( curr != null && counter < mid){
+
+            counter++;
+            curr = curr.next;
+        }
+
+        System.out.println("middle node is: " + curr.data);
     }
 }

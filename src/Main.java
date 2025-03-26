@@ -37,7 +37,20 @@ public class Main {
 
 //        SingleLinkedList.searchElement(122);
 
-        SingleLinkedList.reverseLinkedList();
+//        SingleLinkedList.firstReverseLinkedList();
+
+//        SingleLinkedList.secondReverseLinkedList();
+
+        SingleLinkedList.findMiddleNode();
+
+
+
+
+
+
+
+
+
         /////////////////////////////////////////////////////////////////////////////////
 
 

@@ -1,3 +1,4 @@
+import java.util.Objects;
 
 public class SingleLinkedList {
 
@@ -71,6 +72,7 @@ public class SingleLinkedList {
         ListNode newNode = new ListNode(data);
         newNode.next = head;
         head = newNode;
+        display();
     }
 
     public static void insertLastNode(int data) {
@@ -85,6 +87,7 @@ public class SingleLinkedList {
             current = current.next;
         }
         current.next = newNode;
+        display();
     }
 
     public static void insertNodeAtPosition(int data, int pos) {
@@ -105,6 +108,7 @@ public class SingleLinkedList {
             newNode.next = curr.next;
             curr.next = newNode;
         }
+        display();
     }
 
     public static void deleteFirstNode() {
@@ -112,6 +116,7 @@ public class SingleLinkedList {
         System.out.println("\n🔹 Delete first node at linked list...");
         if (head == null) return;
         head = head.next;
+        display();
     }
 
     public static void deleteLastNode() {
@@ -126,6 +131,7 @@ public class SingleLinkedList {
             curr = curr.next;
         }
         curr.next = null;
+        display();
     }
 
     public static void deleteNodeAtPosition(int pos) {
@@ -143,6 +149,7 @@ public class SingleLinkedList {
 
             curr.next = curr.next.next;
         }
+        display();
     }
 
     public static void searchElement(int data){
@@ -248,5 +255,56 @@ public class SingleLinkedList {
         }
 
         System.out.println(slowNode.data);
+    }
+
+    public static void findNTHElementFromEnd(int n){
+
+        System.out.println("\n🔹 find nth of element from the end of linked list...");
+        if (head == null) return;
+
+        ListNode refNode = head;
+        ListNode mainNode = head;
+
+        int counter = 0;
+
+        while (counter < n ){
+            refNode = refNode.next;
+            counter++;
+        }
+
+        while(refNode !=null){
+
+            refNode = refNode.next;
+            mainNode = mainNode.next;
+        }
+
+        System.out.println("The " + n + " element from the end is: " + mainNode.data);
+    }
+
+    public static void deleteDuplicates(){
+
+        System.out.println("\n🔹 Delete the Duplicates at linked list...");
+        if (head == null) return;
+
+        ListNode slowNode = head;
+        ListNode fastNode = slowNode.next;
+        ListNode prevNode = slowNode;
+
+        while(fastNode != null){
+
+            if (fastNode.next == null && !Objects.equals(fastNode.data, slowNode.data)){
+                slowNode = slowNode.next;
+                prevNode = slowNode;
+                fastNode = slowNode.next;
+            }
+            if (Objects.equals(slowNode.data, fastNode.data)){
+                prevNode.next = fastNode.next;
+                fastNode = prevNode;
+            }
+
+            prevNode = fastNode;
+            fastNode = fastNode.next;
+        }
+        display();
     }
 }

@@ -17,23 +17,18 @@ public class Main {
         third.next = fourth;
 
         SingleLinkedList.display();
-//        SingleLinkedList.insertFirstNode(10);
-//        SingleLinkedList.display();
-//
-//        SingleLinkedList.insertLastNode(9);
-//        SingleLinkedList.display();
 
-//        SingleLinkedList.insertNodeAtPosition(14, 3);
-//        SingleLinkedList.display();
+//        SingleLinkedList.insertFirstNode(12);
+//
+//        SingleLinkedList.insertLastNode(8);
+
+//        SingleLinkedList.insertNodeAtPosition(4, 3);
 
 //        SingleLinkedList.deleteFirstNode();
-//        SingleLinkedList.display();
 
 //        SingleLinkedList.deleteLastNode();
-//        SingleLinkedList.display();
 
 //        SingleLinkedList.deleteNodeAtPosition(3);
-//        SingleLinkedList.display();
 
 //        SingleLinkedList.searchElement(122);
 
@@ -41,7 +36,11 @@ public class Main {
 
 //        SingleLinkedList.secondReverseLinkedList();
 
-        SingleLinkedList.secondFindMiddleNode();
+//        SingleLinkedList.secondFindMiddleNode();
+
+//        SingleLinkedList.findNTHElementFromEnd(2);
+
+        SingleLinkedList.deleteDuplicates();
 
 
 

@@ -1,3 +1,4 @@
+import java.util.List;
 import java.util.Objects;
 
 public class SingleLinkedList {
@@ -127,7 +128,7 @@ public class SingleLinkedList {
         ListNode curr = head;
         int n = length();
 
-        for (int i = 0; i < n-2; i++) {
+        for (int i = 0; i < n - 2; i++) {
             curr = curr.next;
         }
         curr.next = null;
@@ -152,7 +153,7 @@ public class SingleLinkedList {
         display();
     }
 
-    public static void searchElement(int data){
+    public static void searchElement(int data) {
 
         System.out.println("\n🔹 Search Node element at linked list...");
         if (head == null) return;
@@ -160,7 +161,7 @@ public class SingleLinkedList {
         ListNode curr = head;
         int count = 1;
 
-        while (curr != null){
+        while (curr != null) {
 
             if (data == curr.data) {
                 System.out.println("element exist at pos[" + count + "]");
@@ -174,7 +175,7 @@ public class SingleLinkedList {
         System.out.println("element not exist.");
     }
 
-    public static void firstReverseLinkedList(){
+    public static void firstReverseLinkedList() {
 
         System.out.println("\n🔹 Reverse elements at linked list...");
         if (head == null) return;
@@ -182,7 +183,7 @@ public class SingleLinkedList {
         ListNode curr = head;
         ListNode newHead = null;
 
-        while(curr != null){
+        while (curr != null) {
 
             ListNode newNode = new ListNode(curr.data);
             newNode.next = newHead;
@@ -196,7 +197,7 @@ public class SingleLinkedList {
 
     }
 
-    public static void secondReverseLinkedList(){
+    public static void secondReverseLinkedList() {
 
         System.out.println("\n🔹 Reverse elements at linked list...");
         if (head == null) return;
@@ -205,7 +206,7 @@ public class SingleLinkedList {
         ListNode curr = head;
         ListNode next;
 
-        while(curr != null){
+        while (curr != null) {
 
             // pos next after curr
             next = curr.next;
@@ -220,18 +221,18 @@ public class SingleLinkedList {
         display(prev);
     }
 
-    public static void firstFindMiddleNode(){
+    public static void firstFindMiddleNode() {
 
         System.out.println("\n🔹 find Middle Node at linked list...");
         if (head == null) return;
 
         int n = length();
-        int mid = n/2;
+        int mid = n / 2;
         int counter = 0;
 
         ListNode curr = head;
 
-        while( curr != null && counter < mid){
+        while (curr != null && counter < mid) {
 
             counter++;
             curr = curr.next;
@@ -240,7 +241,7 @@ public class SingleLinkedList {
         System.out.println("middle node is: " + curr.data);
     }
 
-    public static void secondFindMiddleNode(){
+    public static void secondFindMiddleNode() {
 
         System.out.println("\n🔹 find Middle Node at linked list...");
         if (head == null) return;
@@ -248,7 +249,7 @@ public class SingleLinkedList {
         ListNode slowNode = head;
         ListNode fastNode = head;
 
-        while (fastNode != null && fastNode.next != null){
+        while (fastNode != null && fastNode.next != null) {
 
             slowNode = slowNode.next;
             fastNode = fastNode.next.next;
@@ -257,7 +258,7 @@ public class SingleLinkedList {
         System.out.println(slowNode.data);
     }
 
-    public static void findNTHElementFromEnd(int n){
+    public static void findNTHElementFromEnd(int n) {
 
         System.out.println("\n🔹 find nth of element from the end of linked list...");
         if (head == null) return;
@@ -267,12 +268,12 @@ public class SingleLinkedList {
 
         int counter = 0;
 
-        while (counter < n ){
+        while (counter < n) {
             refNode = refNode.next;
             counter++;
         }
 
-        while(refNode !=null){
+        while (refNode != null) {
 
             refNode = refNode.next;
             mainNode = mainNode.next;
@@ -281,7 +282,7 @@ public class SingleLinkedList {
         System.out.println("The " + n + " element from the end is: " + mainNode.data);
     }
 
-    public static void deleteDuplicates(){
+    public static void deleteDuplicates() {
 
         System.out.println("\n🔹 Delete the Duplicates at linked list...");
         if (head == null) return;
@@ -290,14 +291,14 @@ public class SingleLinkedList {
         ListNode fastNode = slowNode.next;
         ListNode prevNode = slowNode;
 
-        while(fastNode != null){
+        while (fastNode != null) {
 
-            if (fastNode.next == null && !Objects.equals(fastNode.data, slowNode.data)){
+            if (fastNode.next == null && !Objects.equals(fastNode.data, slowNode.data)) {
                 slowNode = slowNode.next;
                 prevNode = slowNode;
                 fastNode = slowNode.next;
             }
-            if (Objects.equals(slowNode.data, fastNode.data)){
+            if (Objects.equals(slowNode.data, fastNode.data)) {
                 prevNode.next = fastNode.next;
                 fastNode = prevNode;
             }
@@ -307,4 +308,29 @@ public class SingleLinkedList {
         }
         display();
     }
+
+    public static void insertNodeAtSortedLinkedList(int data) {
+
+        System.out.println("\n🔹 Insert Node at sorted linked list at linked list...");
+        if (head == null) return;
+
+        ListNode curr = head;
+        ListNode temp = null;
+        ListNode newNode = new ListNode(data);
+
+        while (curr != null && newNode.data > curr.data) {
+
+            temp = curr;
+            curr = curr.next;
+        }
+
+        if (curr.data != newNode.data) {
+
+            newNode.next = curr;
+            temp.next = newNode;
+        }
+
+        display();
+    }
+
 }

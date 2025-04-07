@@ -6,11 +6,11 @@ public class Main {
         // Single linked list
         System.out.println("\n🔹 Running Single linked list...");
 
-        SingleLinkedList.head = new SingleLinkedList.ListNode(4);
+        SingleLinkedList.head = new SingleLinkedList.ListNode(2);
 
-        SingleLinkedList.ListNode second = new SingleLinkedList.ListNode(8);
-        SingleLinkedList.ListNode third = new SingleLinkedList.ListNode(12);
-        SingleLinkedList.ListNode fourth = new SingleLinkedList.ListNode(2);
+        SingleLinkedList.ListNode second = new SingleLinkedList.ListNode(4);
+        SingleLinkedList.ListNode third = new SingleLinkedList.ListNode(8);
+        SingleLinkedList.ListNode fourth = new SingleLinkedList.ListNode(12);
 
         SingleLinkedList.head.next = second;
         second.next = third;
@@ -40,7 +40,9 @@ public class Main {
 
 //        SingleLinkedList.findNTHElementFromEnd(2);
 
-        SingleLinkedList.deleteDuplicates();
+//        SingleLinkedList.deleteDuplicates();
+
+        SingleLinkedList.insertNodeAtSortedLinkedList(5);
 
 
 

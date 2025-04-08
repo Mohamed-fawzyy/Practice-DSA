@@ -1,5 +1,6 @@
-import java.util.List;
+import java.util.HashSet;
 import java.util.Objects;
+import java.util.Set;
 
 public class SingleLinkedList {
 
@@ -333,4 +334,121 @@ public class SingleLinkedList {
         display();
     }
 
+    public static void generateLinkedListLoop() {
+
+        ListNode first = new SingleLinkedList.ListNode(1);
+        ListNode second = new SingleLinkedList.ListNode(2);
+        ListNode third = new SingleLinkedList.ListNode(3);
+        ListNode fourth = new SingleLinkedList.ListNode(4);
+        ListNode fifth = new SingleLinkedList.ListNode(5);
+        ListNode sixth = new SingleLinkedList.ListNode(6);
+
+        head = first;
+        first.next = second;
+        second.next = third;
+        third.next = fourth;
+        fourth.next = fifth;
+        fifth.next = sixth;
+        sixth.next = third;
+    }
+
+    public static void findLoopInLinkedList() {
+
+        System.out.println("\n🔹 Find if there a loop inside a linked list...");
+        if (head == null) return;
+
+        generateLinkedListLoop();
+        ListNode slow = head;
+        ListNode fast = head;
+
+        while (fast != null && fast.next != null) {
+
+            fast = fast.next.next;
+            slow = slow.next;
+            if (slow == fast) {
+
+                displayLinkedListLoop();
+                detectStartLoopInLinkedList(slow);
+                return;
+            }
+        }
+    }
+
+    private static void displayLinkedListLoop() {
+
+        Set<ListNode> visited = new HashSet<>();
+
+        ListNode curr = head;
+
+        while (curr != null) {
+
+            if (visited.contains(curr)) {
+
+                System.out.print(curr.data); //loop start from here
+                break;
+            }
+
+            System.out.print(curr.data + "--> ");
+            visited.add(curr);
+            curr = curr.next;
+        }
+
+        if (curr == null)
+            System.out.print("null");
+    }
+
+    public static void detectStartLoopInLinkedList(ListNode slwPtr) {
+
+        if (head == null) return;
+
+        System.out.println("\n🔹 Find from where the loop starts at a linked list...");
+        ListNode temp = head;
+
+        while (temp != null) {
+
+            if (temp == slwPtr) {
+                System.out.println("The loop start from here --> " + temp.data);
+                return;
+            }
+
+            temp = temp.next;
+            slwPtr = slwPtr.next;
+        }
+    }
+
+    public static void removeLoopLinkedList() {
+
+        if (head == null) return;
+        System.out.println("\n🔹 Remove the loop at a linked list...");
+
+        generateLinkedListLoop();
+        displayLinkedListLoop();
+
+        // first we have to find if the loop then detect from where its started
+
+        ListNode fstPtr = head;
+        ListNode slwPtr = head;
+
+        while (fstPtr != null && fstPtr.next != null) {
+
+            fstPtr = fstPtr.next.next;
+            slwPtr = slwPtr.next;
+
+            if (slwPtr == fstPtr)
+                break;
+
+        }
+
+        ListNode temp = head;
+        ListNode prev = head;
+
+        while(temp.next != slwPtr.next){
+            temp = temp.next;
+            slwPtr = slwPtr.next;
+        }
+        slwPtr.next = null;
+
+        System.out.println("\nThe Linked List after removing the loop \uD83D\uDD01");
+        displayLinkedListLoop();
+    }
 }

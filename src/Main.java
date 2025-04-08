@@ -42,9 +42,11 @@ public class Main {
 
 //        SingleLinkedList.deleteDuplicates();
 
-        SingleLinkedList.insertNodeAtSortedLinkedList(5);
+//        SingleLinkedList.insertNodeAtSortedLinkedList(5);
 
+//        SingleLinkedList.findLoopInLinkedList();
 
+        SingleLinkedList.removeLoopLinkedList();
 
 
 

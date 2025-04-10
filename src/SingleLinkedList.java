@@ -352,6 +352,38 @@ public class SingleLinkedList {
         sixth.next = third;
     }
 
+    public static ListNode generateFirstLinkedList() {
+
+        ListNode head = new SingleLinkedList.ListNode(1);
+        ListNode third = new SingleLinkedList.ListNode(3);
+        ListNode fifth = new SingleLinkedList.ListNode(5);
+//        ListNode seventh = new SingleLinkedList.ListNode(7);
+
+        head.next = third;
+        third.next = fifth;
+//        fifth.next = seventh;
+
+        return head;
+    }
+
+    public static ListNode generateSecondLinkedList() {
+
+        ListNode head = new SingleLinkedList.ListNode(2);
+        ListNode fourth = new SingleLinkedList.ListNode(4);
+        ListNode sixth = new SingleLinkedList.ListNode(6);
+//        ListNode eight = new SingleLinkedList.ListNode(8);
+//        ListNode ninth = new SingleLinkedList.ListNode(9);
+//        ListNode tenth = new SingleLinkedList.ListNode(10);
+
+        head.next = fourth;
+        fourth.next = sixth;
+//        sixth.next = eight;
+//        eight.next = ninth;
+//        ninth.next = tenth;
+
+        return head;
+    }
+
     public static void findLoopInLinkedList() {
 
         System.out.println("\n🔹 Find if there a loop inside a linked list...");
@@ -440,7 +472,6 @@ public class SingleLinkedList {
         }
 
         ListNode temp = head;
-        ListNode prev = head;
 
         while(temp.next != slwPtr.next){
             temp = temp.next;
@@ -450,5 +481,37 @@ public class SingleLinkedList {
 
         System.out.println("\nThe Linked List after removing the loop \uD83D\uDD01");
         displayLinkedListLoop();
+    }
+
+    public static void mergeTwoSortedLinkedList(){
+
+        if (head == null) return;
+        System.out.println("\n🔹 Merge Two Sorted Linked List...");
+
+        ListNode a = generateFirstLinkedList();
+        ListNode b = generateSecondLinkedList();
+
+        ListNode newMergedList = new ListNode(0);
+        ListNode tail = newMergedList;
+
+        while(a != null && b != null){
+
+            if(a.data <= b.data){
+                tail.next = a;
+                a = a.next;
+            }else {
+                tail.next = b;
+                b = b.next;
+            }
+            tail = tail.next;
+        }
+
+        if (a == null)
+            tail.next = b;
+        else
+            tail.next = a;
+
+        newMergedList = newMergedList.next;
+        display(newMergedList);
     }
 }

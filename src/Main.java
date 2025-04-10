@@ -46,9 +46,11 @@ public class Main {
 
 //        SingleLinkedList.findLoopInLinkedList();
 
-        SingleLinkedList.removeLoopLinkedList();
+//        SingleLinkedList.removeLoopLinkedList();
 
+//        SingleLinkedList.generateLinkedList();
 
+        SingleLinkedList.mergeTwoSortedLinkedList();
 
 
 

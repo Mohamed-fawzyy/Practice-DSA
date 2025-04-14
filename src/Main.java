@@ -4,7 +4,7 @@ public class Main {
         System.out.println("\n🚀 Welcome to Java DSA Practice!");
 
         // Single linked list
-        System.out.println("\n🔹 Running Single linked list...");
+//        System.out.println("\n🔹 Running Single linked list...");
 
         SingleLinkedList.head = new SingleLinkedList.ListNode(2);
 
@@ -16,7 +16,7 @@ public class Main {
         second.next = third;
         third.next = fourth;
 
-        SingleLinkedList.display();
+//        SingleLinkedList.display();
 
 //        SingleLinkedList.insertFirstNode(12);
 //
@@ -50,8 +50,9 @@ public class Main {
 
 //        SingleLinkedList.generateLinkedList();
 
-        SingleLinkedList.mergeTwoSortedLinkedList();
+//        SingleLinkedList.mergeTwoSortedLinkedList();
 
+        SingleLinkedList.addTwoList();
 
 
 

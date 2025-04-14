@@ -514,4 +514,44 @@ public class SingleLinkedList {
         newMergedList = newMergedList.next;
         display(newMergedList);
     }
+
+    public static void addTwoList(){
+
+        if (head == null) return;
+        System.out.println("\n🔹 Adding numbers of two Linked List...");
+
+        ListNode a = generateFirstLinkedList();
+        ListNode b = generateSecondLinkedList();
+
+        display(a);
+        display(b);
+
+        ListNode newList = new ListNode(0);
+        ListNode tail = newList;
+
+        int carry = 0;
+
+        while (a != null || b != null){
+
+            int x = (a != null) ? a.data : 0;
+            int y = (b != null) ? b.data : 0;
+
+            int sum = x + y + carry;
+            carry = sum / 10;
+
+            tail.next = new ListNode(sum % 10);
+
+            if (a != null) a = a.next;
+            if (b != null) b = b.next;
+
+            tail = tail.next;
+
+        }
+
+        if (carry > 0)
+            tail.next = new ListNode(carry);
+
+        newList = newList.next;
+        display(newList);
+    }
 }

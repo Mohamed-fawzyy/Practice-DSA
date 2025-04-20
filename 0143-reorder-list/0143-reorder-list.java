@@ -24,13 +24,13 @@ class Solution {
             fast = fast.next.next;
         }
 
-        ListNode l1 = head;
-        ListNode l2 = slow.next;
+        ListNode first = head;
+        ListNode second = slow.next;
         slow.next = null;
 
         //then reverse the second list
         ListNode prev = null;
-        ListNode curr = l2;
+        ListNode curr = second;
 
         while (curr != null) {
 
@@ -39,24 +39,20 @@ class Solution {
             prev = curr;
             curr = next;
         }
-        l2 = prev;
+        second = prev;
 
         //finally start merging both list by taking node by node from each
-        ListNode tmp1 = l1;
-        ListNode tmp2 = l2;
 
-        while (tmp1 != null && tmp2 != null) {
+        while (second != null) {
 
-            ListNode n1 = tmp1.next;
-            ListNode n2 = tmp2.next;
+            ListNode tmp1 = first.next;
+            ListNode tmp2 = second.next;
+
+            first.next = second;
+            second.next = tmp1;
             
-            tmp1.next = tmp2;
-            if (n1 == null)
-                break;
-            tmp2.next = n1;
-
-            tmp1 = n1;
-            tmp2 = n2;
+            first = tmp1;
+            second = tmp2;
         }
     }
 }

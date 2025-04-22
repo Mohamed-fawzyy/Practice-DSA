@@ -6,15 +6,17 @@ public class Main {
         // Single linked list
 //        System.out.println("\n🔹 Running Single linked list...");
 
-        SingleLinkedList.head = new SingleLinkedList.ListNode(2);
+        SingleLinkedList.head = new SingleLinkedList.ListNode(1);
 
-        SingleLinkedList.ListNode second = new SingleLinkedList.ListNode(4);
-        SingleLinkedList.ListNode third = new SingleLinkedList.ListNode(8);
-        SingleLinkedList.ListNode fourth = new SingleLinkedList.ListNode(12);
+        SingleLinkedList.ListNode second = new SingleLinkedList.ListNode(2);
+        SingleLinkedList.ListNode third = new SingleLinkedList.ListNode(3);
+        SingleLinkedList.ListNode fourth = new SingleLinkedList.ListNode(4);
+        SingleLinkedList.ListNode fifth = new SingleLinkedList.ListNode(5);
 
         SingleLinkedList.head.next = second;
         second.next = third;
         third.next = fourth;
+        fourth.next = fifth;
 
 //        SingleLinkedList.display();
 
@@ -28,7 +30,7 @@ public class Main {
 
 //        SingleLinkedList.deleteLastNode();
 
-//        SingleLinkedList.deleteNodeAtPosition(3);
+//        SingleLinkedList.deleteNodeAtPosition(5);
 
 //        SingleLinkedList.searchElement(122);
 
@@ -52,13 +54,17 @@ public class Main {
 
 //        SingleLinkedList.mergeTwoSortedLinkedList();
 
-        SingleLinkedList.addTwoList();
+//        SingleLinkedList.addTwoList();
 
-
+//        SingleLinkedList.reorderList();
 
 
         /////////////////////////////////////////////////////////////////////////////////
 
+        // Merge Sort with array
+        System.out.println("\n🔹 Running Merge Sort Array...");
+        MergeSort.createArray(10);
 
+        MergeSort.mergeSort(MergeSort.arr);
     }
 }

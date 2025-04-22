@@ -389,7 +389,7 @@ public class SingleLinkedList {
         System.out.println("\n🔹 Find if there a loop inside a linked list...");
         if (head == null) return;
 
-        generateLinkedListLoop();
+//        generateLinkedListLoop();
         ListNode slow = head;
         ListNode fast = head;
 
@@ -553,5 +553,35 @@ public class SingleLinkedList {
 
         newList = newList.next;
         display(newList);
+    }
+
+    public static void reorderList(){
+
+        ListNode curr = head;
+        ListNode tail = head;
+
+        ListNode res = new ListNode(0);
+        ListNode temp = res;
+
+        while (curr.next != null){
+
+            if (tail.next.next == null){
+                temp.next = new ListNode(curr.data);
+                temp = temp.next;
+                temp.next = new ListNode(tail.next.data);
+                temp = temp.next;
+
+                tail.next = null;
+
+                curr = curr.next;
+                tail = curr;
+            }
+
+            tail = tail.next;
+        }
+        temp.next = curr;
+        res = res.next;
+        head = res;
+        display(head);
     }
 }

@@ -117,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview at FAAMG! 🚀 - 
 | [0002-add-two-numbers](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0021-merge-two-sorted-lists) |
+| [0023-merge-k-sorted-lists](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0023-merge-k-sorted-lists) |
 | [0142-linked-list-cycle-ii](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0206-reverse-linked-list) |
@@ -163,10 +164,12 @@ A collection of LeetCode questions to ace the coding interview at FAAMG! 🚀 - 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0023-merge-k-sorted-lists) |
 | [0347-top-k-frequent-elements](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0347-top-k-frequent-elements) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0023-merge-k-sorted-lists) |
 | [0347-top-k-frequent-elements](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0347-top-k-frequent-elements) |
 ## Bucket Sort
 |  |
@@ -206,4 +209,8 @@ A collection of LeetCode questions to ace the coding interview at FAAMG! 🚀 - 
 |  |
 | ------- |
 | [1791-richest-customer-wealth](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1791-richest-customer-wealth) |
+## Merge Sort
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0023-merge-k-sorted-lists) |
 <!---LeetCode Topics End-->

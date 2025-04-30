@@ -22,13 +22,13 @@ public class CircularSingleLinkedList {
 
     public void display(ListNode head) {
 
-        ListNode curr = head;
+        ListNode first = last.next;
 
-        while (curr.next != head){
-            System.out.print(curr.data + "--> ");
-            curr = curr.next;
+        while (first != last){
+            System.out.print(first.data + "--> ");
+            first = first.next;
         }
-        System.out.println("--> " + curr.data + "-----> " + curr.next.data);
+        System.out.println("--> " + first.data + "-----> " + first.next.data);
     }
 
     public void createCircular() {

@@ -2,6 +2,15 @@ public class MergeSort {
 
     static int[] arr;
 
+    public static void display(int[] arr){
+
+        System.out.print("[ ");
+        for (int j : arr) {
+            System.out.print(j + ", ");
+        }
+        System.out.print("]");
+    }
+
     public static void createArray(int n){
 
         arr = new int[n];
@@ -12,7 +21,7 @@ public class MergeSort {
             arr[len-i] = i;
             System.out.print( arr[len-i] + ", ");
         }
-        System.out.print("]");
+        System.out.println("]");
     }
 
     public static void mergeSort(int[] arr){
@@ -38,6 +47,37 @@ public class MergeSort {
         mergeSort(leftHalf);
         mergeSort(rightHalf);
 
-        //merge(, , );
+        merge(arr, leftHalf, rightHalf);
+    }
+
+    private static void merge(int[] arr, int[] leftHalf, int[] rightHalf){
+
+        int leftLen = leftHalf.length;
+        int rightLen = rightHalf.length;
+
+        int i = 0, j= 0, k = 0;
+
+        while (i < leftLen && j < rightLen){
+
+            if (leftHalf[i] <= rightHalf[j]){
+                arr[k] = leftHalf[i];
+                i++;
+            }else {
+                arr[k] = rightHalf[j];
+                j++;
+            }
+            k++;
+        }
+
+        while (i < leftLen){
+            arr[k] = leftHalf[i];
+            i++;
+            k++;
+        }
+        while (j < rightLen){
+            arr[k] = rightHalf[j];
+            j++;
+            k++;
+        }
     }
 }

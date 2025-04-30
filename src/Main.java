@@ -5,18 +5,18 @@ public class Main {
 
         // Single linked list
 //        System.out.println("\n🔹 Running Single linked list...");
+//
+//        SingleLinkedList.head = new SingleLinkedList.ListNode(5);
 
-        SingleLinkedList.head = new SingleLinkedList.ListNode(1);
-
-        SingleLinkedList.ListNode second = new SingleLinkedList.ListNode(2);
-        SingleLinkedList.ListNode third = new SingleLinkedList.ListNode(3);
-        SingleLinkedList.ListNode fourth = new SingleLinkedList.ListNode(4);
-        SingleLinkedList.ListNode fifth = new SingleLinkedList.ListNode(5);
-
-        SingleLinkedList.head.next = second;
-        second.next = third;
-        third.next = fourth;
-        fourth.next = fifth;
+//        SingleLinkedList.ListNode second = new SingleLinkedList.ListNode(4);
+//        SingleLinkedList.ListNode third = new SingleLinkedList.ListNode(3);
+//        SingleLinkedList.ListNode fourth = new SingleLinkedList.ListNode(2);
+//        SingleLinkedList.ListNode fifth = new SingleLinkedList.ListNode(1);
+//
+//        SingleLinkedList.head.next = second;
+//        second.next = third;
+//        third.next = fourth;
+//        fourth.next = fifth;
 
 //        SingleLinkedList.display();
 
@@ -58,13 +58,50 @@ public class Main {
 
 //        SingleLinkedList.reorderList();
 
+//        SingleLinkedList.ListNode sortedSLL = SingleLinkedList.mergeSort(SingleLinkedList.head);
+//        SingleLinkedList.display(sortedSLL);
+
+        /////////////////////////////////////////////////////////////////////////////////
+
+        // Double linked list
+//        System.out.println("\n🔹 Running Double linked list...");
+//        System.out.println("\n🔹 Insert node at first for Double linked list...");
+
+        DoubleLInkedList dll = new DoubleLInkedList();
+
+//        dll.insertAtFirst(1);
+//        dll.insertAtFirst(2);
+//        dll.insertAtFirst(3);
+//        dll.insertAtFirst(4);
+//        dll.insertAtFirst(5);
+//        dll.displayForward();
+
+//        System.out.println("\n🔹 Insert node at first for Double linked list...");
+//        dll.insertAtEnd(1);
+//        dll.insertAtEnd(2);
+//        dll.insertAtEnd(3);
+//        dll.insertAtEnd(4);
+//        dll.insertAtEnd(5);
+//        dll.displayForward();
+
+//        dll.deleteFirstNode();
+
+//        dll.deleteLastNode();
+//        dll.displayForward();
+
+        /////////////////////////////////////////////////////////////////////////////////
+
+        System.out.println("\n🔹 Running Circular Single Linked List...");
+        CircularSingleLinkedList csll = new CircularSingleLinkedList();
+        csll.createCircular();
 
         /////////////////////////////////////////////////////////////////////////////////
 
         // Merge Sort with array
-        System.out.println("\n🔹 Running Merge Sort Array...");
-        MergeSort.createArray(10);
-
-        MergeSort.mergeSort(MergeSort.arr);
+//        System.out.println("\n🔹 Running Merge Sort Array...");
+//        MergeSort.createArray(10);
+//
+//        MergeSort.mergeSort(MergeSort.arr);
+//        MergeSort.display(MergeSort.arr);
     }
 }

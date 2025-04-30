@@ -1,4 +1,5 @@
 import java.util.HashSet;
+import java.util.List;
 import java.util.Objects;
 import java.util.Set;
 
@@ -25,7 +26,7 @@ public class SingleLinkedList {
             System.out.print(curr.data + "--> ");
             curr = curr.next;
         }
-        System.out.println("null.");
+        System.out.println(curr);
         System.out.println("length: " + n);
         System.out.println();
     }
@@ -39,7 +40,7 @@ public class SingleLinkedList {
             System.out.print(curr.data + "--> ");
             curr = curr.next;
         }
-        System.out.println("null.");
+        System.out.println(curr);
         System.out.println("length: " + n);
         System.out.println();
     }
@@ -473,7 +474,7 @@ public class SingleLinkedList {
 
         ListNode temp = head;
 
-        while(temp.next != slwPtr.next){
+        while (temp.next != slwPtr.next) {
             temp = temp.next;
             slwPtr = slwPtr.next;
         }
@@ -483,7 +484,7 @@ public class SingleLinkedList {
         displayLinkedListLoop();
     }
 
-    public static void mergeTwoSortedLinkedList(){
+    public static void mergeTwoSortedLinkedList() {
 
         if (head == null) return;
         System.out.println("\n🔹 Merge Two Sorted Linked List...");
@@ -494,12 +495,12 @@ public class SingleLinkedList {
         ListNode newMergedList = new ListNode(0);
         ListNode tail = newMergedList;
 
-        while(a != null && b != null){
+        while (a != null && b != null) {
 
-            if(a.data <= b.data){
+            if (a.data <= b.data) {
                 tail.next = a;
                 a = a.next;
-            }else {
+            } else {
                 tail.next = b;
                 b = b.next;
             }
@@ -515,7 +516,7 @@ public class SingleLinkedList {
         display(newMergedList);
     }
 
-    public static void addTwoList(){
+    public static void addTwoList() {
 
         if (head == null) return;
         System.out.println("\n🔹 Adding numbers of two Linked List...");
@@ -531,7 +532,7 @@ public class SingleLinkedList {
 
         int carry = 0;
 
-        while (a != null || b != null){
+        while (a != null || b != null) {
 
             int x = (a != null) ? a.data : 0;
             int y = (b != null) ? b.data : 0;
@@ -555,7 +556,7 @@ public class SingleLinkedList {
         display(newList);
     }
 
-    public static void reorderList(){
+    public static void reorderList() {
 
         ListNode curr = head;
         ListNode tail = head;
@@ -563,9 +564,9 @@ public class SingleLinkedList {
         ListNode res = new ListNode(0);
         ListNode temp = res;
 
-        while (curr.next != null){
+        while (curr.next != null) {
 
-            if (tail.next.next == null){
+            if (tail.next.next == null) {
                 temp.next = new ListNode(curr.data);
                 temp = temp.next;
                 temp.next = new ListNode(tail.next.data);
@@ -584,4 +585,57 @@ public class SingleLinkedList {
         head = res;
         display(head);
     }
+
+    public static ListNode mergeSort(ListNode head) {
+
+        System.out.println("\n🔹 Merge Sort for a Linked List...");
+        if (head == null || head.next == null) return head;
+
+        ListNode middle = getMiddle(head);
+        ListNode left = head;
+        ListNode right = middle.next;
+        middle.next = null;
+
+        left = mergeSort(left);
+        right = mergeSort(right);
+
+
+        return merge(left, right);
+    }
+
+    public static ListNode getMiddle(ListNode head) {
+
+        //split the linked list into two halves
+        ListNode slow = head, fast = head;
+
+        while (fast.next != null && fast.next.next != null) {
+
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+
+        return slow;
+    }
+
+    private static ListNode merge(ListNode left, ListNode right) {
+
+        ListNode dummy = new ListNode(0);
+        ListNode tail = dummy;
+
+        while (left != null && right != null) {
+
+            if (left.data <= right.data) {
+                tail.next = left;
+                left = left.next;
+            } else {
+                tail.next = right;
+                right = right.next;
+            }
+            tail = tail.next;
+        }
+
+        tail.next = (left != null) ? left : right;
+        return dummy.next;
+    }
+
 }

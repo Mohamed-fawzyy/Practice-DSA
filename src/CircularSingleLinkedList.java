@@ -13,7 +13,7 @@ public class CircularSingleLinkedList {
     }
 
     public int getLength() {
-        return length;
+        return length+1;
     }
 
     public boolean isEmpty() {
@@ -27,8 +27,10 @@ public class CircularSingleLinkedList {
         while (first != last){
             System.out.print(first.data + "--> ");
             first = first.next;
+            length++;
         }
         System.out.println("--> " + first.data + "------> " + first.next.data);
+        System.out.println("length: " + getLength());
     }
 
     public void createCircular() {

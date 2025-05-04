@@ -3,7 +3,7 @@ public class CircularSingleLinkedList {
     private ListNode last;
     private int length;
 
-    public static class ListNode{
+    public static class ListNode {
         private int data;
         private ListNode next;
 
@@ -13,24 +13,24 @@ public class CircularSingleLinkedList {
     }
 
     public int getLength() {
-        return length+1;
+        return length;
     }
 
     public boolean isEmpty() {
         return length == 0;
     }
 
-    public void display(ListNode head) {
+    public void display() {
 
+        if (last == null) return;
         ListNode first = last.next;
 
-        while (first != last){
+        while (first != last) {
             System.out.print(first.data + "--> ");
             first = first.next;
-            length++;
         }
         System.out.println("--> " + first.data + "------> " + first.next.data);
-        System.out.println("length: " + getLength());
+        System.out.println(getLength());
     }
 
     public void createCircular() {
@@ -48,6 +48,34 @@ public class CircularSingleLinkedList {
         fourth.next = first;
 
         last = fourth;
-        display(first);
+        display();
+    }
+
+    public void insertNodeAtFirst(int data) {
+
+        ListNode newNode = new ListNode(data);
+        if (last == null)
+            last = newNode;
+        else {
+            newNode.next = last.next;
+        }
+
+        last.next = newNode;
+        length++;
+    }
+
+    public void insertNodeAtEnd(int data) {
+
+        ListNode newNode = new ListNode(data);
+
+        if (last == null) {
+            last = newNode;
+            last.next = last;
+        } else{
+            newNode.next = last.next;
+            last.next = newNode;
+            last = last.next;
+        }
+        length++;
     }
 }

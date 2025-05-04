@@ -28,7 +28,7 @@ public class CircularSingleLinkedList {
             System.out.print(first.data + "--> ");
             first = first.next;
         }
-        System.out.println("--> " + first.data + "-----> " + first.next.data);
+        System.out.println("--> " + first.data + "------> " + first.next.data);
     }
 
     public void createCircular() {

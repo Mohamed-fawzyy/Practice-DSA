@@ -99,4 +99,25 @@ public class CircularSingleLinkedList {
         first.next = null;
         length--;
     }
+
+    public void removeLastNode (){
+
+        if (isEmpty()) return;
+
+        if (last == last.next){
+            last = null;
+            length--;
+            System.out.println(getLength());
+            return;
+        }
+        ListNode prev = last.next;
+
+        while (prev.next != last){
+            prev = prev.next;
+        }
+
+        prev.next = last.next;
+        last = prev;
+        length--;
+    }
 }

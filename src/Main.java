@@ -105,8 +105,11 @@ public class Main {
 //        csll.insertNodeAtEnd(3);
 //        csll.insertNodeAtEnd(4);
 
-        csll.removeFirstNode();
+//        csll.removeFirstNode();
+
+        csll.removeLastNode();
         csll.display();
+
 
         /////////////////////////////////////////////////////////////////////////////////
 

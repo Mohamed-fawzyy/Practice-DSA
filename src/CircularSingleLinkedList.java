@@ -1,3 +1,5 @@
+import java.util.NoSuchElementException;
+
 public class CircularSingleLinkedList {
 
     private ListNode last;
@@ -29,8 +31,8 @@ public class CircularSingleLinkedList {
             System.out.print(first.data + "--> ");
             first = first.next;
         }
-        System.out.println("--> " + first.data + "------> " + first.next.data);
-        System.out.println(getLength());
+        System.out.println(first.data + "------> " + first.next.data);
+        System.out.println("len: " + getLength());
     }
 
     public void createCircular() {
@@ -48,6 +50,7 @@ public class CircularSingleLinkedList {
         fourth.next = first;
 
         last = fourth;
+        length = 4;
         display();
     }
 
@@ -77,5 +80,23 @@ public class CircularSingleLinkedList {
             last = last.next;
         }
         length++;
+    }
+
+    public void removeFirstNode(){
+
+        if (isEmpty()) // means also last == null
+        {
+            System.out.println("len: " + getLength());
+            return;
+        }
+
+        ListNode first = last.next;
+
+        if (last == last.next)
+            last = null;
+        else
+            last.next = first.next;
+        first.next = null;
+        length--;
     }
 }

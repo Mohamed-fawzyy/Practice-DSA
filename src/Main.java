@@ -93,17 +93,19 @@ public class Main {
 
         System.out.println("\n🔹 Running Circular Single Linked List...");
         CircularSingleLinkedList csll = new CircularSingleLinkedList();
-//        csll.createCircular();
+        csll.createCircular();
 
 //        csll.insertNodeAtFirst(4);
 //        csll.insertNodeAtFirst(3);
 //        csll.insertNodeAtFirst(2);
 //        csll.insertNodeAtFirst(1);
 
-        csll.insertNodeAtEnd(1);
-        csll.insertNodeAtEnd(2);
-        csll.insertNodeAtEnd(3);
-        csll.insertNodeAtEnd(4);
+//        csll.insertNodeAtEnd(1);
+//        csll.insertNodeAtEnd(2);
+//        csll.insertNodeAtEnd(3);
+//        csll.insertNodeAtEnd(4);
+
+        csll.removeFirstNode();
         csll.display();
 
         /////////////////////////////////////////////////////////////////////////////////

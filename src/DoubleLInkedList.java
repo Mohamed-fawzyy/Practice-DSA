@@ -74,6 +74,7 @@ public class DoubleLInkedList {
             head.previous = newNode;
         newNode.next = head;
         head = newNode;
+        length++;
     }
 
     public void insertAtEnd(int data) {
@@ -95,16 +96,15 @@ public class DoubleLInkedList {
         if (isEmpty()) return;
 
         ListNode temp = head;
+
         if (head == tail) tail = null;
-
-        else {
-
+        else
             head.next.previous = null;
-        }
+
         head = head.next;
         temp.next = null;
         temp = null;
-
+        length--;
 
         System.out.println();
     }
@@ -122,6 +122,7 @@ public class DoubleLInkedList {
         tail = tail.previous;
         temp.previous = null;
         temp = null;
+        length--;
 
         System.out.println();
     }

@@ -91,9 +91,9 @@ public class Main {
 
         /////////////////////////////////////////////////////////////////////////////////
 
-        System.out.println("\n🔹 Running Circular Single Linked List...");
-        CircularSingleLinkedList csll = new CircularSingleLinkedList();
-        csll.createCircular();
+//        System.out.println("\n🔹 Running Circular Single Linked List...");
+//        CircularSingleLinkedList csll = new CircularSingleLinkedList();
+//        csll.createCircular();
 
 //        csll.insertNodeAtFirst(4);
 //        csll.insertNodeAtFirst(3);
@@ -107,8 +107,19 @@ public class Main {
 
 //        csll.removeFirstNode();
 
-        csll.removeLastNode();
-        csll.display();
+//        csll.removeLastNode();
+//        csll.display();
+
+        ///////////////////////////////////////////////////////////////////////////////
+
+        System.out.println("\n🔹 Running Stack implemented by Linked List...");
+        Stack stack = new Stack();
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+        stack.display();
+        stack.pop();
+        stack.display();
 
 
         /////////////////////////////////////////////////////////////////////////////////

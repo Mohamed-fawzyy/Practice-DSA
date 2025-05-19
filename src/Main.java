@@ -112,13 +112,9 @@ public class Main {
 
         ///////////////////////////////////////////////////////////////////////////////
 
-        System.out.println("\n🔹 Running Stack implemented by Linked List...");
-        Stack stack = new Stack();
-        stack.push(1);
-        stack.push(2);
-        stack.push(3);
-        stack.display();
-        stack.pop();
+        System.out.println("\n🔹 Running Stack...");
+        MyStack stack = new MyStack();
+        stack.reverseString("abcd");
         stack.display();
 
 

@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview at FAAMG! 🚀 - 
 | [0268-missing-number](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0283-move-zeroes) |
 | [0347-top-k-frequent-elements](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0347-top-k-frequent-elements) |
+| [0496-next-greater-element-i](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0496-next-greater-element-i) |
 | [1241-decompress-run-length-encoded-list](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1241-decompress-run-length-encoded-list) |
 | [1505-create-target-array-in-the-given-order](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1505-create-target-array-in-the-given-order) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/1528-kids-with-the-greatest-number-of-candies) |
@@ -48,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview at FAAMG! 🚀 - 
 | [0242-valid-anagram](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0347-top-k-frequent-elements) |
+| [0496-next-greater-element-i](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0496-next-greater-element-i) |
 ## Math 🔢
 |  |
 | ------- |
@@ -116,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview at FAAMG! 🚀 - 
 | [0020-valid-parentheses](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0042-trapping-rain-water) |
 | [0143-reorder-list](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0143-reorder-list) |
+| [0496-next-greater-element-i](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0496-next-greater-element-i) |
 ## Linked List 🧬
 |  |
 | ------- |
@@ -150,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview at FAAMG! 🚀 - 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0042-trapping-rain-water) |
+| [0496-next-greater-element-i](https://github.com/Mohamed-fawzyy/Practice---DSA/tree/master/0496-next-greater-element-i) |
 ## Union Find
 |  |
 | ------- |

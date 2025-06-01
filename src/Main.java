@@ -18,7 +18,7 @@ public class Main {
 //        third.next = fourth;
 //        fourth.next = fifth;
 
-//        SingleLinkedList.display();
+//        SingleLinkedList.displayStack();
 
 //        SingleLinkedList.insertFirstNode(12);
 //
@@ -59,7 +59,7 @@ public class Main {
 //        SingleLinkedList.reorderList();
 
 //        SingleLinkedList.ListNode sortedSLL = SingleLinkedList.mergeSort(SingleLinkedList.head);
-//        SingleLinkedList.display(sortedSLL);
+//        SingleLinkedList.displayStack(sortedSLL);
 
         /////////////////////////////////////////////////////////////////////////////////
 
@@ -108,14 +108,13 @@ public class Main {
 //        csll.removeFirstNode();
 
 //        csll.removeLastNode();
-//        csll.display();
+//        csll.displayStack();
 
         ///////////////////////////////////////////////////////////////////////////////
 
         System.out.println("\n🔹 Running Stack...");
         MyStack stack = new MyStack();
-        stack.reverseString("abcd");
-        stack.display();
+        stack.validParentheses("{}()[");
 
 
         /////////////////////////////////////////////////////////////////////////////////
@@ -125,6 +124,6 @@ public class Main {
 //        MergeSort.createArray(10);
 //
 //        MergeSort.mergeSort(MergeSort.arr);
-//        MergeSort.display(MergeSort.arr);
+//        MergeSort.displayStack(MergeSort.arr);
     }
 }

@@ -16,6 +16,6 @@ class Solution {
             nums[i] = e;
             i++;
         }
-        return map.size();
+        return i;
     }
 }
